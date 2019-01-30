@@ -55,7 +55,7 @@ If we only want to plot certain columns of the attribute table we can use argume
 ```{r points zcol}
 mapview(breweries, zcol = c("brewery", "village", "founded"))
 ```
-
+Note : By default, the map shows legend of first selected column brewery. It can be trun on or off  using legend argument (see below).
 ------
 
 ## Including legends
